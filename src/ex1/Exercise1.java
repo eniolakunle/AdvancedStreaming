@@ -10,11 +10,11 @@ public class Exercise1 {
     public static void main(String[] args) {
         List<Dinosaur> dinosaurs = List.of(
                 new Dinosaur("Patrick", 215, 12),
-                new Dinosaur("Peter", 215, 81),
-                new Dinosaur("Nick", 215, 15),
-                new Dinosaur("Kunle", 215, 100),
-                new Dinosaur("Jordan", 215, 25),
-                new Dinosaur("Patrick", 215, 95)
+                new Dinosaur("Peter", 300, 81),
+                new Dinosaur("Nick", 102, 15),
+                new Dinosaur("Kunle", 777, 100),
+                new Dinosaur("Jordan", 911, 25),
+                new Dinosaur("Patrick", 315, 95)
         );
 
         List<String> illDinosaurs = dinosaurs.stream()
