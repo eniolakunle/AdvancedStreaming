@@ -1,1 +1,1 @@
-![fishies.webp](fishies.webp)
+<img src="fishies.webp" width="500" />
