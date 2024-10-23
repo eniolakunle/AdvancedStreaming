@@ -6,6 +6,8 @@ that are ill (assuming the isIll() method exists the in Dinosaur class), map the
 names, and collect the results in a list. Lastly, print out this list of names of the dinosaurs that
 need immediate attention.
 
+<br /> 
+
 ## 🚨 Task Overview
 
 To maintain the park's operations and ensure the well-being of our dinosaurs, we need to identify any ill dinosaurs and handle them with care.
