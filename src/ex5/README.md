@@ -1,4 +1,4 @@
-# 🦖 Exercise 5: Dinosaur Weight Calculator
+# 🏋️‍♂️ Exercise 5: Dinosaur Weight Calculator
 
 Calculating the average weight of dinosaurs can be a time-consuming operation, especially
 when dealing with a large number of dinosaurs. To speed up the process, use parallel streams.
