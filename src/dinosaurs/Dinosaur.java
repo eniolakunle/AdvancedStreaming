@@ -1,9 +1,12 @@
 package dinosaurs;
 
 
+import java.time.LocalTime;
+
 public class Dinosaur {
-    private double weight;
     private final String name;
+    private final LocalTime feedingTime = LocalTime.ofSecondOfDay((long) (Math.random() * 86399));
+    private double weight;
     private int health = 100;
 
     public Dinosaur(String name, double weight) {
@@ -17,12 +20,16 @@ public class Dinosaur {
         this.health = health;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
     public static boolean isIll(Dinosaur dino) {
         return DinosaurHealth.giveHealthStatus(dino.getHealth()) == DinosaurHealth.CRITICAL;
+    }
+
+    public LocalTime getFeedingTime() {
+        return feedingTime;
+    }
+
+    public String getName() {
+        return this.name;
     }
 
     public int getHealth() {
