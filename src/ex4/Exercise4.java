@@ -18,7 +18,7 @@ public class Exercise4 {
 
         Optional<Dinosaur> dino = dinosaurs.stream()
                 .filter(d -> d.getName() == "Praxton")
-                .limit(1)
+//                .limit(1)
                 .findFirst();
 
         dino.ifPresentOrElse(
